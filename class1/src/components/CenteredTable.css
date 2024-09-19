@@ -1,0 +1,28 @@
+/* CenteredTable.css */
+
+.table-container {
+  /* display: flex; */
+  justify-content: center;
+  
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.centered-table {
+  
+  
+margin: 0 auto;
+
+  border: 2px solid black;
+  width: 50%; /* Adjust as needed */
+  text-align: center;
+}
+#details{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.centered-table td {
+  border: 1px solid black;
+  padding: 10px;
+}
